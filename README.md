@@ -32,7 +32,7 @@ This project is a Flask-based web application that leverages Langchain's AI capa
    ```bash
    python main.py
    ```
-   The application will start on `http://127.0.0.1:5000/`.
+   The application will start on `http://127.0.0.1:8080/`.
 
 2. **API Endpoints**
    - `POST /ai`: Send a query to the AI model.
