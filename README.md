@@ -9,16 +9,16 @@ This project is a Flask-based web application that leverages Langchain's AI capa
 
 ## Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd rag
-   ```
-
-2. **Set up a virtual environment**
+1. **Set up a virtual environment**
    ```bash
    python -m venv env
    source env/bin/activate   # On Windows use `env\Scripts\activate`
+   ```
+
+2. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd rag
    ```
 
 3. **Install dependencies**
@@ -28,9 +28,9 @@ This project is a Flask-based web application that leverages Langchain's AI capa
 
 ## Usage
 
-1. **Run the Flask application**
+1. **Run the application**
    ```bash
-   flask run
+   python main.py
    ```
    The application will start on `http://127.0.0.1:5000/`.
 
